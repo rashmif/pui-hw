@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Website of Bun Bun Bake Shop </title>
+    <meta charset="utf-8" />
+	<meta name="author" content="Bun Bun Bake Shop">
+	<meta name="description" content="Bun Bun Bake Shop's official website">
+    <script defer src="app.js"></script>
+
+   
+    <link rel="stylesheet" media="all" type="text/css" href="styles.css" />
+</head>
+
+
+<body> 
+    <div id="detail">
+        <header>
+            <div id="logo3">
+                <a href = "index.html"><img src="logo-01.svg" alt="Bun Buns's Logo Photo"
+                        width="400" 
+                        height="400"></a>
+            </div>
+            <hr id = "heading">
+            <br><br>
+            <a href = "index.html"><p class = "top"> PRODUCTS </p></a>
+            <a href = "cart.html"><p class = "top2">CART</p></a>
+            <br><br><br>
+            <p class = "heading">Original Cinnamon Roll</p>
+            <br>
+            <div id="logo4">
+                <img src="original-cinnamon-roll.jpg" alt="OG Cinnamon Roll" class="center">
+            </div>
+            <p class = "info"> Customize our delicious hand-made cinnamon roll to your liking!</p>
+            <br>
+            
+            
+            <div class= "dropdown">
+                <label for ="flavor">Glazing:</label>
+                <br><br>
+                <select name="flavor" id="glazingOptions"
+                    onchange = "glazingChange(this)">
+                </select>
+
+                <br><br>
+
+                <label for ="pack size">Pack Size:</label>
+                <br><br>
+                <select name="pack size" id="packSizeOptions"
+                    onchange = "packChange(this)">
+                </select>
+            </div>
+            <br><br><br><br><br><br>
+
+            <div id="total"></div>
+            <div class= "checkout"> Add to Cart</div>
+            <br><br><br><br><br><br><br><br><br><br>
+        </header>
+    </div>
+</body>
+    
+</html>

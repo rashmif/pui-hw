@@ -1,0 +1,419 @@
+body {
+    font-family: Roboto, serif;
+    font-size: 100%;
+    line-height: 1.7em;
+    color: #000000;
+    padding-bottom: 50px;
+}
+#heading {
+    width: 1000px;
+    text-align: right;
+    margin-right: 0;
+    margin-top: -220px;
+}
+hr {
+    margin: -50px;
+    height: 5px;
+    background-color:#000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 150%;
+    text-align: right;
+    margin-top: -100px;
+    margin-right: 300px;
+}
+
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    width: 90px;
+    border: 5px white;
+    text-align: center;
+    background-color:yellow;
+    margin-left: 1200px;
+    margin-top: -42px
+}
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 200%;
+    text-align: center;
+    margin-left: -340px;
+}
+
+.center2 {
+    display: block;
+    border: 5px solid;
+    margin-left: 425px;
+    margin-right: auto;
+    width: 10%;
+}
+h4 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75%;
+    text-align: center;
+    padding: 0px;
+    margin-left: -510px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#content {
+    margin-top: -195px;
+}
+#prices {
+    margin-top: -60px;
+    margin-left: 615px;
+    font-size: 120%;
+    text-align: right;
+}
+#content2 {
+    margin-top: -195px;
+}
+#prices2 {
+    margin-top: -80px;
+    margin-left: 600px;
+    font-size: 120%;
+    text-align: right;
+}
+#final {
+    font-size: 120%;
+}
+#total {
+    font-size: 120%;
+    text-align: right;
+    margin-left: 600px;
+    margin-top: -30px;
+    text-align: right;
+}
+h5 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 150%;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 625px;
+}
+
+
+h6 {
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    width: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    text-align: center;
+    padding: 10px;
+    background-color:yellow;
+    margin-left: 1155px;
+}
+
+
+
+
+
+.top {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    width: 150px;
+    font-weight: bold;
+    border: 5px white;
+    text-align: right;
+    background-color:yellow;
+    margin-top: -100px;
+    margin-left: 970px;
+}
+
+.top2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    width: 90px;
+    border: 5px white;
+    text-align: center;
+    margin-left: 1200px;
+    margin-top: -50px
+}
+
+.heading {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 200%;
+    text-align: center;
+    margin-left: -205px;
+}
+
+.center {
+    display: block;
+    border: 5px solid;
+    margin-left: 75px;
+    width: 50%;
+}
+
+.info {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 160%;
+    width: 350px;
+    text-align: left;
+    margin-left: 870px;
+    margin-top: -700px
+}
+.dropdown {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    text-align: left;
+    margin-left: 870px;
+    margin-top: 10px;
+ }
+
+#flavor {
+    width: 350px;
+    height: 50px;
+    font-size: 80%;
+    border-width: 3px;
+    border-color: black;
+}
+#pack {
+    width: 350px;
+    height: 50px;
+    font-size: 80%;
+    border-width: 3px;
+    border-color: black;
+}
+
+.total {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: left;
+    padding: 10px;
+    margin-left: 900px;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.checkout {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    float: left;
+    width: 170px;
+    height: 30px;
+    background-color: yellow;
+    padding: 10px;
+    float: left;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-left: 1025px;
+    margin-top: -120px;
+}
+
+
+
+
+
+.headingG {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 200%;
+    text-align: center;
+    margin-left: -70px;
+}
+
+.galleryInfo {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    margin: 0px;
+    margin-left: 560px;
+    padding: 0px;
+    width: 300px;
+}
+
+.product1 {
+    width: 400px;
+    height:400px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.product1:hover {
+    background-color: yellow;
+}
+
+.product1 p {
+    margin-left: 50px;
+    text-align: left;
+}
+.product1 img {
+    display: block;
+    border: 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.product2 {
+    width: 400px;
+    height:400px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    margin-top: -440px;
+    padding: 10px;
+}
+
+.product2:hover {
+    background-color: yellow;
+}
+
+.product2 p {
+    margin-left: 50px;
+    text-align: left;
+}
+.product2 img {
+    display: block;
+    border: 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.product3 {
+    width: 400px;
+    height:400px;
+    margin-left: 900px;
+    margin-bottom: 20px;
+    margin-top: -440px;
+    padding: 10px;
+}
+
+.product3:hover {
+    background-color: yellow;
+}
+
+.product3 p {
+    margin-left: 50px;
+    text-align: left;
+}
+.product3 img {
+    display: block;
+    border: 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.product4 {
+    width: 400px;
+    height:400px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.product4:hover {
+    background-color: yellow;
+}
+
+.product4 p {
+    margin-left: 50px;
+    text-align: left;
+}
+.product4 img {
+    display: block;
+    border: 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.product5 {
+    width: 400px;
+    height:400px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    margin-top: -440px;
+    padding: 10px;
+}
+
+.product5:hover {
+    background-color: yellow;
+}
+
+.product5 p {
+    margin-left: 50px;
+    text-align: left;
+}
+.product5 img {
+    display: block;
+    border: 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.product6 {
+    width: 400px;
+    height:400px;
+    margin-left: 900px;
+    margin-bottom: 20px;
+    margin-top: -440px;
+    padding: 10px;
+}
+
+.product6:hover {
+    background-color: yellow;
+}
+
+.product6 p {
+    margin-left: 50px;
+    text-align: left;
+}
+.product6 img {
+    display: block;
+    border: 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+#end {
+    width: 1000px;
+    text-align: right;
+    margin-right: 0;
+    margin-top: -40px;
+}
+
+#total {
+    display: inline;
+    float: right;
+    color: black;
+    margin-right: 450px;
+    font-size: 120%;
+    margin-top: -100px;
+}
