@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Website of Bun Bun Bake Shop </title>
+    <meta charset="utf-8" />
+	<meta name="author" content="Bun Bun Bake Shop">
+	<meta name="description" content="Bun Bun Bake Shop's official website">
+   
+    <link rel="stylesheet" media="all" type="text/css" href="styles.css" />
+
+    <script defer src="rollsData.js"></script>
+    <script defer src="cart.js"></script>
+</head>
+
+
+<body> 
+    <div id="container">
+        <div id="cart">
+            <header>
+                <div id="logo">
+                    <a href = "index.html"><img src="logo-01.svg" alt="Bun Buns's Logo Photo"
+                         width="400" 
+                         height="400"></a>
+                </div>
+                <hr id = "heading">
+                <br><br>
+                <a href = "index.html"><h1>PRODUCTS</h1></a>
+                <a href = "cart.html"><h2>CART</h2></a>
+                <br><br><br>
+                <h3>Shopping Cart</h3>
+                <br><br><br>
+            </header>
+        </div>
+    </div>           
+
+
+    <div class="cartcontainer">
+
+        <div class="emptycontainer">
+          <p></p>
+        </div>
+  
+        <div class="overallcart">
+          <div class="cartcomplete">
+            <template id="carttemplate">
+              <div class="firstcontainer">
+  
+                <div class="imagesContainer">
+                  <img id="cartpage" src="">
+                  <a class="remove">Remove</a>
+                </div>
+  
+                <div class="containerForDescription">
+                  <p id="rollname"></p>
+                  <p id="glazingtype"></p>
+                  <p id="packsize"></p>
+                </div>
+  
+                <div class="pricecontainer">
+                  <p id="cartprice"></p>
+                </div>
+                
+              </div>
+            </template>
+          </div>
+  
+        <br>
+        <br>
+        <hr>
+  
+          <div class="bottomcontainer">
+            <div class="totalContainer">
+              <p>Total:</p>
+            </div>
+            <div class="check">
+                <div class= "totalPriceEle">
+                    <p id="totalprice"></p>
+                </div>
+              <input id="checkoutbutton" type="submit" value="Checkout">
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
