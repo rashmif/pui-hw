@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rashmi Francis Resume</title>
+
+	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="all" type="text/css" href="jquery-ui.min.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="jquery.lightbox.css" />
+
+    <script src="jquery-3.6.0.min.js" type="text/javascript"> </script>
+    <script src="jquery-ui.min.js" type="text/javascript"> </script>
+    <script src="scripts.js" type="text/javascript"> </script>
+    <script src="jquery.lightbox.min.js" type="text/javascript"></script>
+
+    <script>
+        $(function() {
+        $( "#accordion" ).accordion();
+        });
+    </script>
+
+    <script type="text/JavaScript">
+        $(function() {
+            $('#gallery a').lightBox();
+        });
+    </script>
+
+	<script>
+        $(function() {
+            $( "#tabs" ).tabs({
+                event: "mouseover"
+            });
+             });
+    </script>
+</head>
+
+<body>
+	<header>
+		<h1 class="typing-animation">Hi! I'm Rashmi Francis</h1>
+		<h2 id="job-title">Student</h2>
+		<script>
+			$(function() {
+				var jobTitle = $('#job-title');
+				setInterval(function() {
+					if (jobTitle.text() === 'Student') {
+						jobTitle.text('Technical Program Manager');
+					} else {
+						jobTitle.text('Student');
+					}
+				}, 2000);
+			});
+		</script>
+		
+		<nav>
+			<ul>
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="social-icons">
+			<a href="https://www.instagram.com/rashmifrancis/">
+				<img src="ig.png" alt="First social media icon" class="social-icon">
+			</a>
+			<a href="https://www.linkedin.com/in/rashmi-francis/">
+				<img src="linkedin.png" alt="Second social media icon" class="social-icon">
+			</a>
+			<a href="https://www.facebook.com/rashmi.francis.566/">
+				<img src="facebook.png" alt="Third social media icon" class="social-icon">
+			</a>
+		</div>
+		
+	</header>
+	<main>
+		<section id="about-me">
+			<img src="me.jpeg" alt="My Image" class="left-image">
+			<div class="about-me">
+			  <h2>About Me</h2>
+			  <span class="typing"></span><span class="cursor"></span>
+			  <p class="about-animation">As a sophomore at Carnegie Mellon University, I am currently pursuing a degree in Information Systems and 
+				Human-Computer Interaction with a minor in Computer Science. 
+				My passion for researching and developing solutions that uncover the deep 
+				complexities of our world has led me to explore the intersection between business and technology. 
+				With my experience in technical program management and research, I have gained a deep understanding 
+				of the challenges businesses face in today's rapidly evolving technological landscape. 
+				I am excited to continue learning and growing in this field, and look forward to contributing to 
+				innovative solutions that drive positive change.
+			  </p>
+			</div>
+		  </section>
+		  
+
+		<section id="education">
+			<h2>Education</h2>
+			<ul>
+				<li>
+					<div class="flip-box">
+						<div class="flip-box-inner">
+							<div class="flip-box-front">
+								<h3>Bachelor's Degree</h3>
+								<p>Carnegie Mellon University, 2021-2025</p>
+							</div>
+							<div class="flip-box-back">
+								<p>Major: Information Systems and Human-Computer Interaction</p>
+								<p>Minor: Computer Science</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="flip-box">
+						<div class="flip-box-inner">
+							<div class="flip-box-front">
+								<h3>Advanced Diploma</h3>
+								<p>Academies of Loudoun, 2017-2021</p>
+							</div>
+							<div class="flip-box-back">
+								<p>Concentration: Information Technology</p>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		
+
+        <div id="content-gallery">
+			<h2>Projects</h2>
+            <p>Click the Images Below to Learn More About my Projects!</p>
+                <div id="gallery">  
+                    <div id="galleryThumbnail1"><div id="thmbnlShadow1">
+                        <a href="mri copy.jpeg"  title="Diagnosing early onset acute intracranial Ischemic and Hemorrhagic strokes using machine learning">
+                        <img src="mri.jpeg" alt="mri image"/></a></div></div>
+    
+                    <div id="galleryThumbnail2"><div id="thmbnlShadow2">
+                        <a href="bacteria copy.jpeg"  title="Developing algorithms from bacterial DNA to identify the species of microorganisms present in water samples.">
+                        <img src="bacteria.jpeg" alt="bacteria image"/></a></div></div>
+    
+                    <div id="galleryThumbnail3"><div id="thmbnlShadow3">
+                        <a href="asl copy.png"  title="Translating American Sign Language using machine learning in real time to allow the deaf community to communicate with voice controlled devices">
+                        <img src="asl.png" alt="image 3"/></a></div></div>
+                </div>
+        </div>   
+        
+		<section id="experience">
+			<h2>Experience</h2>
+			<div id="accordianStyle">
+				<div id="accordion">
+					<h5>Jun 2022 - Aug 2022: Technical Project Management Intern, TerraGo Technologies</h5>
+					<div><p>
+						<ul>
+						<li>Identified and prioritized product feature requests based on customer feedback for smart city streetlight product configuration. Utilized AWS CLI to stage changes to an environment and Git to manage source code.</li>
+						<li>Implemented AWS Location Service API to geocode system failed addresses. Developed production ready web page features for streetlight controls using JSON and TerraGo’s configuration editor</li>
+						<li>Gathered customer feedback from initial implementation and made relevant changes through working in an agile environment. Developed mechanisms to collect performance and usage metrics to enhance user experience and product adoption.</li>
+						<li>Understood how to receive buy-in from project managers to create a companywide meeting minutes template which was adopted for SCRUM meetings. Led a team of 4 interns to develop a Slack Bot to track command and event calls from configuration editor changes.</li>
+						</ul>
+		
+					</p></div>
+					<h5>Jul 2021 - Aug 2021: Computer Science Summer Institute Participant, Google</h5>
+					<div><p>
+						<ul>
+							<li>Completed an introductory project-based JavaScript processing curriculum taught by Google engineers.</li>
+							<li>Configured individual coding projects in JavaScript by using concepts such as variables, data types, and functions.</li>
+							<li>Engaged with product design, resume development, and software engineering workshops.</li>
+							<li>Delivered a collaborative final project presentation including a live demonstration to Google employees and community leaders.
+							</li>
+							</ul>
+		
+					</p></div>
+					<h5>Jul 2020 - May 2021: Co-Founder, ARIA Challenge</h5>
+					<div><p>
+						<ul>
+							<li>Co-founded an international competition for students in grades K-12 in technology, entrepreneurship, and art giving students a creative outlet to express themselves during the pandemic.</li>
+							<li>Gathered judges from Top 20 schools and professional speakers in various fields including professors from Harvard, Brown, and Julliard, Directors of creative arts programs, and CEO’s.</li>
+							<li>Received more than 1400 submissions across 12 countries.
+							</li>
+							</ul>
+		
+					</p></div>
+				</div>
+			</div>
+
+		</section>
+		<section id="skills">
+			<h2>Skills</h2>
+			<ul class="lang-list">
+				<li>
+				  Python
+				  <a href="https://www.python.org/">
+					<img src="python.png" alt="Python Logo" width="50" height="50" class="img-hover">
+				  </a>
+				</li>
+				<li>
+				  HTML
+				  <a href="https://html.com/">
+					<img src="html.png" alt="HTML Logo" width="50" height="50" class="img-hover">
+				  </a>
+				</li>
+				<li>
+				  C
+				  <a href="https://www.cprogramming.com/">
+					<img src="c.png" alt="C Logo" width="50" height="50" class="img-hover">
+				  </a>
+				</li>
+				<li>
+				  JavaScript
+				  <a href="https://www.javascript.com/">
+					<img src="js.png" alt="JS Logo" width="50" height="50" class="img-hover">
+				  </a>
+				</li>
+				<li>
+				  Office 365
+				  <a href="https://www.office.com/">
+					<img src="ms.png" alt="MS Logo" width="70" height="50" class="img-hover">
+				  </a>
+				</li>
+				<li>
+				  CSS
+				  <a href="https://www.w3schools.com/htmL/html_css.asp">
+					<img src="css.png" alt="CSS Logo" width="50" height="50" class="img-hover">
+				  </a>
+				</li>
+			  </ul>
+		</section>
+
+		<section id="additional-experience">
+			<h2>Additional Experience</h2>
+			<div id="tabs">
+				<ul>
+					<li><a href="#tabs-1">Kalavaridhi Dance Teacher</a></li>
+					<li><a href="#tabs-2">Arterys Volunteer</a></li>
+				</ul>
+
+				<div id="tabs-1">
+					<p> Planed, evaluated, and revised curricula, dance content, and methods of instruction for 20 students 7-10 years old.</p>
+					<p>
+						<div id="dance-school">
+							<img src="dance.jpeg" alt="Kalavaridhi Photo 1">
+						</div>
+					</p>
+				</div>
+
+				<div id="tabs-2">
+					<p>Sourced and curated datasets and models to build a next generation AI marketplace for medical imaging.</p>
+					<p>
+						<div id="volunteer">
+							<img src="arterys.png" alt="Arterys Photo 1">
+						</div>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<h2>Contact</h2>
+			<form onSubmit="return validate()">    
+				<fieldset>
+					<legend>Tell us about yourself</legend>
+					<label for="uname">Name: (required)</label> <br/>
+					<input type="text" id="uname" required name="uname" value="Your Name" size="20" maxlength ="250"><br/><br/>
+				</fieldset>
+	
+				<fieldset>
+					<legend>Let's stay in touch</legend>
+					<label for="source">How did you find out about me?</label>
+					<select id="source">
+						<option value="Google" selected>Google</option>
+						<option value="news">News article</option>
+						<option value="friend">Friend</option>
+						<option value="other">Other</option>
+					</select><br/><br/>
+	
+					<label for="email">Please provide your email address:</label> <br/>
+					<input type="email" id="email" name="email" size="20" value="" required placeholder="abc@defg.com" maxlength ="250"> <br/><br/>
+					
+					<label for="phone">Please provide your zipcode:</label> <br/>
+					<input type="text" id="phone" name="phone" value="" required><br/><br/>
+				</fieldset>
+				<fieldset>
+				<input type ="image" src="submit.png" alt="Submit" name= "btnimage">
+				</fieldset>
+			</form>
+		</section>
+	</main>
+	<footer>
+    </footer>
+    </body>
+</html>
+
+
