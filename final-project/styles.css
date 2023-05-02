@@ -1,11 +1,11 @@
 /* Global Styles */
 
 :root {
-  --primary-color: #FFC1D8; 
+  --primary-color: #fdaac8; 
   --secondary-color: #BCE0E0; 
   --tertiary-color: #B9FFE0; 
   --quaternary-color: #FFE3C2;
-  --accent-color: #FFB6B9;
+  --accent-color: #f59da0;
   --dark-color: #333;
   --light-color: #fff;
   --section-1: #C9E0C9;
@@ -144,7 +144,7 @@ li img {
 
 header {
   background-color: var(--primary-color);
-  color: var(--light-color);
+  color: var(--dark-color);
   padding: 20px;
 }
 
@@ -666,7 +666,7 @@ section#skills ul {
     border-color: transparent;
   }
   50% {
-    border-color: #FFC1D8;
+    border-color: #fdaac8;
   }
 }
 
